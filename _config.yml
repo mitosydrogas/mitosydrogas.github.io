@@ -1,24 +1,26 @@
 # site settings
 title: Mitos y Drogas
-subtitle: Qué verga
+subtitle: Tu guía para hacer drogas
 email: mitosydrogas@gmail.com
 description: Fuente de información de la berga.
 # baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 author: Gerardo Ortega Alcocer
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+# street_address: 1234 Somewhere Road
+# city: Nashville
+# state: TN
+# zip_code: 55555
+# country: United States of America
+# phone: (716) 555-5555
 
 # homepage tiles
-tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
+tiles-source: posts # accepts "posts" or "pages"
+tiles-count: 10
+
+permalink: drogas/:slug
 
 # social settings
-500px_url:
+# 500px_url:
 # facebook_url:
 # github_url:
 # gitlab_url: https://gitlab.com/u/andrewbanchich

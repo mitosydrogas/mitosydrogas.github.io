@@ -1,12 +1,11 @@
 ---
 layout: allposts
-title: All posts
-landing-title: 'All posts'
+title: Todas las Drogas
+landing-title: 'Todas las Drogas'
 nav-menu: true
 description: null
 image: null
 author: null
 show_tile: false
+permalink: /drogas/
 ---
-
-<h1>All posts</h1>

@@ -7,8 +7,9 @@
 
     <!-- Main -->
     <div id="main" class="alt">
+      {% include tiles.html %}
       <!-- One -->
-      <section id="one">
+      <!-- <section id="one">
         <div class="inner">
           {% for post in site.posts %} {% if post.title != 404 %}
           <header class="major">
@@ -22,7 +23,7 @@
           <p>{{ post.content }}</p>
           {% endif %} {% endfor %}
         </div>
-      </section>
+      </section> -->
     </div>
 
     {% include footer.html %}

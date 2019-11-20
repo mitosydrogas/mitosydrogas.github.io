@@ -1,9 +1,4 @@
 <!DOCTYPE html>
-<!--
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
   {% include head.html %}
 
@@ -21,8 +16,8 @@
             {% if page.names %}
             <br />
             <p>
-              También se le conoce como: {% for name in page.names %} {{name}},
-              {% endfor %}
+              También se le conoce como: {% for name in page.names %}
+              <i>{{name}}</i>, {% endfor %}
             </p>
             {% endif %}
           </header>

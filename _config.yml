@@ -1,8 +1,8 @@
 # site settings
 title: Mitos y Drogas
-subtitle: Tu guía para hacer drogas
+subtitle: Tu guía para reducción de daños
 email: mitosydrogas@gmail.com
-description: Fuente de información de la berga.
+description: Información crítica y objetiva sobre el uso y la <br />prevención del abuso de substancias.
 # baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 author: Gerardo Ortega Alcocer
@@ -18,6 +18,10 @@ tiles-source: posts # accepts "posts" or "pages"
 tiles-count: 10
 
 permalink: drogas/:slug
+
+exclude:
+  - elements.md
+  - generic.md
 
 # social settings
 # 500px_url:

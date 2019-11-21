@@ -2,7 +2,7 @@
 layout: post
 title: Cannabis
 description: Relajación, aumento en percepción auditiva y visual, sin efectos adversos.
-image: assets/images/pic06.jpg
+image: assets/images/cannabis.jpeg
 names:
   - Marihuana
   - Mota

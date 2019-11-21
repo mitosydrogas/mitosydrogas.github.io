@@ -2,7 +2,7 @@
 title: Acerca De
 layout: landing
 description: '¿Qué es Mitos y Drogas? Información acerca de nosotros,<br />ésta página y todo lo relacionado al contenido de la misma.'
-image: assets/images/pic07.jpg
+image: assets/images/capsulas.jpeg
 nav-menu: true
 ---
 
@@ -24,8 +24,8 @@ nav-menu: true
 <!-- Two -->
 <section id="two" class="spotlights">
 	<section>
-		<a href="generic.html" class="image">
-			<img src="assets/images/pic08.jpg" alt="" data-position="center center" />
+		<a href="/drogas" class="image">
+			<img src="assets/images/drugs.png" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -41,8 +41,8 @@ nav-menu: true
 		</div>
 	</section>
 	<section>
-		<a href="generic.html" class="image">
-			<img src="assets/images/pic09.jpg" alt="" data-position="top center" />
+		<a href="/adiccion" class="image">
+			<img src="assets/images/addiction.webp" alt="" data-position="top center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -51,14 +51,14 @@ nav-menu: true
 				</header>
 				<p>¿Qué es realmente una adicción? Información relevante acerca de los distintos tipos de dependencias a substancias, así como su severidad y tratamientos recomendados.</p>
 				<ul class="actions">
-					<li><a href="/adicciones" class="button">Aprende más...</a></li>
+					<li><a href="/adiccion" class="button">Aprende más...</a></li>
 				</ul>
 			</div>
 		</div>
 	</section>
 	<section>
-		<a href="generic.html" class="image">
-			<img src="assets/images/pic10.jpg" alt="" data-position="25% 25%" />
+		<a href="/legalidad" class="image">
+			<img src="assets/images/drug-legal.jpg" alt="" data-position="25% 25%" />
 		</a>
 		<div class="content">
 			<div class="inner">

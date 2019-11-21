@@ -2,7 +2,7 @@
 layout: post
 title: Metanfetaminas
 description: Euforia, ganas de coger, ganas de besar, la droga del amor.
-image: assets/images/pic01.jpg
+image: assets/images/methanfetamines.jpg
 names:
   - Meth
 classifications:

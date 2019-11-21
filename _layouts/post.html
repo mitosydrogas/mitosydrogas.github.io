@@ -13,18 +13,27 @@
           <header class="major">
             <h1>{{ page.title }}</h1>
             <p>{{page.description}}</p>
-            {% if page.names %}
             <br />
+            {% if page.names %}
             <p>
               También se le conoce como: {% for name in page.names %}
               <i>{{name}}</i>, {% endfor %}
             </p>
+            {% endif %} {% if page.classifications %}
+            <p>
+              Clasificado como: {% for classification in page.classifications %}
+              <i>{{classification}}</i>, {% endfor %}
+            </p>
             {% endif %}
           </header>
+          <a href="/drogas" class="button small icon fa-undo"
+            >Todas las Drogas</a
+          >
           {% if page.image %}<span class="image main"
             ><img src="{{ site.baseurl }}/{{ page.image }}" alt=""/></span
           >{% endif %}
           <p>{{ content }}</p>
+          <a href="/drogas" class="button icon fa-undo">Todas las Drogas</a>
         </div>
       </section>
     </div>

@@ -16,7 +16,7 @@ formspree: xwkkzoqq
 
 # homepage tiles
 tiles-source: posts # accepts "posts" or "pages"
-tiles-count: 10
+tiles-count: 9
 
 permalink: drogas/:slug
 

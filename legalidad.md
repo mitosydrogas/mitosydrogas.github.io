@@ -6,7 +6,9 @@ image: assets/images/pic11.jpg
 nav-menu: true
 ---
 
-## Historia de las drogas en México
+En construcción.
+
+<!-- ## Historia de las drogas en México
 
 ## Legalidad Actual
 
@@ -16,4 +18,4 @@ nav-menu: true
 
 ### Ministerio Público vs. Juez Cívico
 
-## Más información
+## Más información -->

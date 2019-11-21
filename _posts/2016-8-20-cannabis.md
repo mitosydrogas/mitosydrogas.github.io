@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cannabis
-description: Relajación, aumento en percepción auditiva y visual, sin efectos adversos.
+description: Puede ser fumado, ingerido oralmente o vaporizado, esta es la droga ilícita de mayor uso en México.
 image: assets/images/cannabis.jpeg
 names:
   - Marihuana
@@ -10,6 +10,8 @@ names:
   - Pasto
   - Hierba
   - Weed
+  - Hash
+  - Hashish
 classifications:
   - Depresor
 ---

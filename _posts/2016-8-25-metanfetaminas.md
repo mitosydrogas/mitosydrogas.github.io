@@ -1,10 +1,12 @@
 ---
 layout: post
 title: Metanfetaminas
-description: Euforia, ganas de coger, ganas de besar, la droga del amor.
+description: Parte de la familia de las anfetaminas, drogas estimulantes.
 image: assets/images/methanfetamines.jpg
 names:
   - Meth
+  - Ice/Hielo
+  - Cristal
 classifications:
   - Depresor
   - Alucinógeno

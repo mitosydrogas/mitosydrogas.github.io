@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Involúcrate
 description: Información acerca del equipo detrás de Mitos y Drogas
 image: assets/images/pic11.jpg

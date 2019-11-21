@@ -4,7 +4,7 @@ subtitle: Tu guía para reducción de daños
 email: mitosydrogas@gmail.com
 description: Información crítica y objetiva sobre el uso y la <br />prevención del abuso de substancias.
 # baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://mitosydrogas.org" # the base hostname & protocol for your site
+url: "https://mitosydrogas.org" # the base hostname & protocol for your site
 author: Gerardo Ortega Alcocer
 # street_address: 1234 Somewhere Road
 # city: Nashville

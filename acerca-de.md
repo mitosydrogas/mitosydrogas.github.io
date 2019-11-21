@@ -51,7 +51,7 @@ nav-menu: true
 				</header>
 				<p>¿Qué es realmente una adicción? Información relevante acerca de los distintos tipos de dependencias a substancias, así como su severidad y tratamientos recomendados.</p>
 				<ul class="actions">
-					<li><a href="/substancias" class="button">Aprende más...</a></li>
+					<li><a href="/adicciones" class="button">Aprende más...</a></li>
 				</ul>
 			</div>
 		</div>
@@ -67,7 +67,7 @@ nav-menu: true
 				</header>
 				<p>La gran mayoría de las (si no es que todas) substancias en México cuentan con una regulación enfocada en la criminalización del consumidor. Es importante conocer cuáles son los riesgos legales alrededor de la adquisición, posesión y consumo de estas substancias.</p>
 				<ul class="actions">
-					<li><a href="legalidad.html" class="button">Consultar Artículo</a></li>
+					<li><a href="/legalidad" class="button">Consultar Artículo</a></li>
 				</ul>
 			</div>
 		</div>
@@ -83,9 +83,8 @@ nav-menu: true
 		<p>Mitos y Drogas es un proyecto que busca atacar una problemática compleja, es por ello que buscamos llegar a la mayor cantidad de personas posibles, es por eso que buscamos concientización en las plataformas digitales de mayor alcance ya sea en forma de micro-sitios informativos, videos, streams, foros de discusión y sus contrapartes prescenciales como cursos, conferencias y pláticas enfocadas a desestigmatizar el uso de estas substancias así como de informar a la población en general.</p>
 		<p>Para mantener con vida estos proyectos, siempre estamos buscando personas que quieran unirse al equipo de <strong>Mitos y Drogas</strong> así como donativos e invitaciones a eventos con el fin de poder llevar información a más lugares lo más pronto posible.</p>
 		<ul class="actions">
-			<li><a href="involucrate.html" class="button next">Involúcrate</a></li>
+			<li><a href="/involucrate" class="button next">Involúcrate</a></li>
 		</ul>
 	</div>
 </section>
-
 </div>

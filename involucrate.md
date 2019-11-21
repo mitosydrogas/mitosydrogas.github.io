@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: page
 title: Involúcrate
-description: Información acerca del equipo detrás de Mitos y Drogas
+description: ¿Quieres colaborar con nosotros? Esta página tiene toda la información requerida para unirte y comenzar a ser parte de Mitos y Drogas.
 image: assets/images/pic11.jpg
 nav-menu: true
 ---

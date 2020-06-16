@@ -22,7 +22,7 @@ Proviene de una planta.
 
 ## ¿Qué es?
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus *rutrum* facilisis.
 Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum.
 Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
 

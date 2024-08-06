@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cannabis
+title: "Cannabis: Usos, Efectos y Legalidad"
 description: Puede ser fumado, ingerido oralmente o vaporizado, esta es la droga ilícita de mayor uso en México.
 image: assets/images/cannabis.jpeg
 names:
@@ -16,50 +16,89 @@ classifications:
   - Depresor
 ---
 
+# Contenido
+
+- [Origen](#origen)
+- [¿Qué es?](#qué-es)
+- [¿Cómo funciona?](#cómo-funciona)
+- [Efectos a corto y largo plazo](#efectos-a-corto-y-largo-plazo)
+- [Presentaciones](#presentaciones)
+- [Dosis](#dosis)
+- [¿Qué hacer en caso de emergencia?](#qué-hacer-en-caso-de-emergencia)
+- [Legalidad](#legalidad)
+- [Referencias y Links de utilidad](#referencias-y-links-de-utilidad)
+
 ## Origen
 
-Proviene de una planta.
+El cannabis proviene de la planta Cannabis sativa, originaria de Asia Central pero ahora cultivada en diversas partes del mundo. Esta planta ha sido utilizada durante siglos por sus propiedades medicinales, recreativas y espirituales.
 
 ## ¿Qué es?
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus *rutrum* facilisis.
-Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum.
-Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
+El cannabis es una sustancia derivada de la planta Cannabis sativa. Contiene compuestos químicos activos llamados cannabinoides, entre los que se destacan el THC (tetrahidrocannabinol) y el CBD (cannabidiol). El THC es el principal responsable de los efectos psicoactivos de la planta, mientras que el CBD no es psicoactivo y se asocia con propiedades medicinales.
 
 ## ¿Cómo funciona?
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis.
-Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum.
-Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
+El THC y otros cannabinoides en el cannabis interactúan con el sistema endocannabinoide del cuerpo, que juega un papel crucial en la regulación del estado de ánimo, la memoria, el apetito y el dolor. El THC se une a los receptores cannabinoides en el cerebro, produciendo efectos que pueden incluir euforia, relajación y alteraciones sensoriales.
 
 ## Efectos a corto y largo plazo
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis.
-Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum.
-Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
+### Efectos a corto plazo
+
+- Relajación
+- Euforia
+- Alteración de la percepción del tiempo
+- Aumento del apetito
+- Sequedad bucal
+- Ojos rojos
+- Dificultades en la coordinación y la concentración
+
+### Efectos a largo plazo
+
+- Problemas respiratorios (si se fuma)
+- Dependencia y síndrome de abstinencia
+- Posible deterioro cognitivo
+- Alteraciones en la memoria y el aprendizaje
+- Aumento del riesgo de enfermedades mentales en personas predispuestas
 
 ## Presentaciones
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis.
-Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum.
-Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
+El cannabis puede ser consumido de varias formas:
 
-## Dósis
+- **Fumado**: en forma de cigarrillos (porros) o pipas.
+- **Vaporizado**: utilizando vaporizadores que calientan la planta sin combustión.
+- **Ingerido oralmente**: en alimentos y bebidas (comestibles).
+- **Tópico**: en cremas y lociones aplicadas sobre la piel.
+- **Concentrados**: como aceites, resinas y shatter.
 
-La dósis recomendada de **MDMA** es de Ni Ideamg por cada Kilogramo de peso. Siendo así el 100% de una dósis la cantidad de substancia requerida para tu peso, a continuación una tabla comparativa entre los efectos *que pueden ser esperados* en relación al porcentaje correspondiente de dósis:
+## Dosis
 
-|   %   |                 Efectos                  |
-| :---: | :--------------------------------------: |
-|  25   | Relajación, efectos casi imperceptibles. |
-|  50   |                Relajación                |
-|  100  |                Relajación                |
-|  150  |                 Awas we                  |
-|  200  |              Ufff you dead               |
+La dosis de cannabis puede variar significativamente dependiendo de la forma de consumo y la concentración de THC. Aquí una guía general para entender los efectos según la cantidad consumida:
+
+|  %  |                  Efectos                  |
+| :-: | :---------------------------------------: |
+| 25  | Relajación, efectos casi imperceptibles.  |
+| 50  |            Relajación moderada            |
+| 100 |      Euforia y alteración sensorial       |
+| 150 |    Efectos intensos, posible ansiedad     |
+| 200 | Riesgo de efectos adversos significativos |
+
+Es importante empezar con dosis bajas y esperar para evaluar los efectos antes de consumir más, especialmente en comestibles, ya que los efectos pueden tardar más en aparecer.
 
 ## ¿Qué hacer en caso de emergencia?
 
-El *Cannabis* no representa riesgo de importancia médica, sin embargo, dependencia y adicción pueden presentarse tras un uso constante, aunque tiene un mucho menor que el tabaco o el alcohol.
+Aunque el cannabis no suele representar un riesgo médico grave, en casos de sobredosis, es recomendable:
+
+- Mantener la calma y tranquilizar a la persona afectada.
+- Proporcionar un ambiente seguro y cómodo.
+- Mantenerse hidratado.
+- En casos de ansiedad extrema, buscar asistencia médica.
 
 ## Legalidad
 
-En México, actualmente, el *Cannabis* se encuentra regulado como substancia de uso **ilegal**. Aunque se permite su portación, **siempre y cuando no exceda 5mg**.
+En México, el cannabis es una sustancia regulada y su uso recreativo es ilegal. Sin embargo, la portación de hasta 5 gramos para uso personal está despenalizada. La legislación sobre el cannabis está en constante evolución, y es importante estar al tanto de las leyes actuales.
+
+## Referencias y Links de utilidad
+
+- [Erowid Cannabis Vault](https://www.erowid.org/plants/cannabis/cannabis.shtml)
+- [NORML - National Organization for the Reform of Marijuana Laws](https://norml.org/)
+- [Drug Policy Alliance](https://drugpolicy.org/issues/marijuana-legalization)

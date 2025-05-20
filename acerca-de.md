@@ -1,7 +1,7 @@
 ---
 title: Acerca De
 layout: landing
-description: "¿Qué es Mitos y Drogas? Información acerca de nosotros, <br />esta página y todo lo relacionado al contenido de la misma."
+description: "¿Qué es Mitos y Drogas? Conoce la trayectoria de su creador, la visión institucional y cómo participar."
 image: assets/images/capsulas.jpeg
 nav-menu: true
 ---
@@ -9,81 +9,119 @@ nav-menu: true
 <!-- Main -->
 <div id="main">
 
-<!-- One -->
+<!-- One — Introducción -->
 <section id="one">
-	<div class="inner">
-		<header class="major">
-			<h2>Mitos y Drogas</h2>
-		</header>
-		<p>En México, la criminalización de substancias y consumidores ha causado múltiples problemas de seguridad y salud. Esto se debe tanto a la opacidad en la información durante la educación como a la estigmatización que conllevan las políticas antidrogas, las cuales implementan mecanismos de regulación inadecuados y premisas autoritarias. <strong>Mitos y Drogas</strong> surge con la intención de ayudar a entender las substancias y ofrecer datos importantes y de primera mano para la prevención y reducción de daños antes, durante y después del uso de las mismas.</p>
-		<p>Este sitio busca llevar información clara, precisa e integral sobre el uso de substancias en México, de forma útil e interactiva para permitir el acceso a los datos a todo aquel que desee conocer más sobre el panorama actual en el país.</p>
-		<p>El sitio cuenta con páginas dedicadas a las substancias y páginas sobre elementos importantes relacionados con las substancias tales como prejuicios, interacciones, legalidad y modelos de prevención de daños, todo en un solo lugar.</p>
-	</div>
+  <div class="inner">
+    <header class="major">
+      <h2>Mitos&nbsp;y&nbsp;Drogas</h2>
+    </header>
+
+  <p><strong>Mitos y Drogas</strong> es un proyecto independiente creado por <em>Gerardo Ortega Alcocer</em> con el propósito de ofrecer <strong>información científica, comprensible y sin estigma</strong> sobre sustancias psicoactivas en México. A través de contenidos interactivos, guías de reducción de daños y acompañamiento legal, el sitio busca que cada persona usuaria ejerza su derecho a la salud y a la autodeterminación.</p>
+
+  <p>La plataforma reúne fichas detalladas de sustancias, análisis legales actualizados y recursos prácticos para situaciones cotidianas —desde festivales de música hasta encuentros con la autoridad— con un enfoque de derechos humanos.</p>
+  </div>
 </section>
 
-<!-- Two -->
+<!-- Two — Spotlights: se conservan imágenes y flujo original -->
 <section id="two" class="spotlights">
-	<section>
-		<a href="/drogas" class="image">
-			<img src="assets/images/drugs.png" alt="" data-position="center center" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>Substancias</h3>
-				</header>
-				<p>Un catálogo interactivo con varias substancias, presentando información esencial como nombres alternativos, dosis de uso, legalidad, efectos de la substancia, riesgos y guías para actuar en casos de emergencia.</p>
-				<ul class="actions">
-					<li><a href="/drogas" class="button">Ver substancias...</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
-	<section>
-		<a href="/adiccion" class="image">
-			<img src="assets/images/addiction.webp" alt="" data-position="top center" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>Adicciones</h3>
-				</header>
-				<p>¿Qué es realmente una adicción? Información relevante acerca de los distintos tipos de dependencias a substancias, así como su severidad y tratamientos recomendados.</p>
-				<ul class="actions">
-					<li><a href="/adiccion" class="button">Aprende más...</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
-	<section>
-		<a href="/legalidad" class="image">
-			<img src="assets/images/drug-legal.jpg" alt="" data-position="25% 25%" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>Legalidad</h3>
-				</header>
-				<p>La mayoría de las substancias en México están reguladas enfocándose en la criminalización del consumidor. Es importante conocer cuáles son los riesgos legales alrededor de la adquisición, posesión y consumo de estas substancias.</p>
-				<ul class="actions">
-					<li><a href="/legalidad" class="button">Consultar Artículo</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
+
+  <section>
+    <a href="/drogas" class="image">
+      <img src="assets/images/drugs.png" alt="" data-position="center center" />
+    </a>
+    <div class="content">
+      <div class="inner">
+        <header class="major"><h3>Substancias</h3></header>
+        <p>Catálogo interactivo con nombres alternativos, dosis, efectos, riesgos y primeros auxilios por cada molécula.</p>
+        <ul class="actions">
+          <li><a href="/drogas" class="button">Ver substancias…</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <a href="/adiccion" class="image">
+      <img src="assets/images/addiction.webp" alt="" data-position="top center" />
+    </a>
+    <div class="content">
+      <div class="inner">
+        <header class="major"><h3>Adicciones</h3></header>
+        <p>Información sobre dependencia, neurobiología y tratamientos basados en evidencia.</p>
+        <ul class="actions">
+          <li><a href="/adiccion" class="button">Aprende más…</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <a href="/legalidad" class="image">
+      <img src="assets/images/drug-legal.jpg" alt="" data-position="25% 25%" />
+    </a>
+    <div class="content">
+      <div class="inner">
+        <header class="major"><h3>Legalidad</h3></header>
+        <p>Guías sobre derechos, cantidades de tolerancia, procesos ante el Ministerio Público y legislación emergente.</p>
+        <ul class="actions">
+          <li><a href="/legalidad" class="button">Consultar artículo</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
 </section>
 
-<!-- Three -->
+<!-- Three — Visión y Metas -->
 <section id="three">
-	<div class="inner">
-		<header class="major">
-			<h2>Más allá de un sitio informativo</h2>
-		</header>
-		<p>Mitos y Drogas es un proyecto que busca abordar una problemática compleja. Buscamos llegar a la mayor cantidad de personas posibles a través de plataformas digitales de mayor alcance, como micro-sitios informativos, videos, streams, foros de discusión, así como eventos presenciales como cursos, conferencias y pláticas. Nuestro objetivo es desestigmatizar el uso de estas substancias e informar a la población en general.</p>
-		<p>Para mantener con vida estos proyectos, siempre estamos buscando personas que quieran unirse al equipo de <strong>Mitos y Drogas</strong>, así como donativos e invitaciones a eventos para llevar información a más lugares lo más pronto posible.</p>
-		<ul class="actions">
-			<li><a href="/involucrate" class="button next">Involúcrate</a></li>
-		</ul>
-	</div>
+  <div class="inner">
+    <header class="major"><h2>Visión y objetivos</h2></header>
+
+  <p>El proyecto aspira a convertirse en la <strong>referencia latinoamericana de divulgación en reducción de daños</strong>, integrando ciencia de frontera, incidencia legislativa y defensa legal.</p>
+
+  <ul>
+    <li>Ofrecer <strong>100 fichas de sustancias</strong> y modelos de interacción segura para 2026.</li>
+    <li>Capacitar a <strong>5 000 profesionales</strong> de salud, derecho y educación en enfoques de salud pública.</li>
+    <li>Publicar un <strong>Observatorio de Casos</strong> que documente abusos policiales y sentencias paradigmáticas.</li>
+  </ul>
+
+  <p>Consulta la sección de <a href="/congresos" class="link">Congresos</a> para ver la participación de Mitos y Drogas en foros académicos y profesionales.</p>
+  </div>
 </section>
+
+<!-- Four — Gerardo Ortega Alcocer -->
+<section id="four" class="spotlights">
+  <section>
+    <a class="image">
+      <img src="assets/images/gerardo.jpg" alt="Gerardo Ortega Alcocer" data-position="center center"/>
+    </a>
+    <div class="content">
+      <div class="inner">
+        <header class="major"><h3>Gerardo Ortega Alcocer</h3></header>
+
+        <p>Estudiante de último año de la Licenciatura en Biología Experimental (UAM) y asistente de investigación en el área de neurociencias del Instituto Nacional de Psiquiatría <em>“Ramón de la Fuente Muñiz”</em>. Ha colaborado en proyectos pre-clínicos sobre psicodélicos y analgesia, y divulga ciencia desde 2016 mediante conferencias, podcasts y talleres.</p>
+
+        <p><strong>Contacto directo:</strong> <a href="mailto:gerardo@mitosydrogas.org">gerardo@mitosydrogas.org</a></p>
+
+        <p><strong>Redes:</strong>
+          <a href="https://twitter.com/mitosydrogas" target="_blank">Twitter</a> |
+          <a href="https://instagram.com/mitosydrogas" target="_blank">Instagram</a> |
+          <a href="https://fb.me/mitosydrogas" target="_blank">Facebook</a>
+        </p>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- Five — Participa -->
+<section id="five">
+  <div class="inner">
+    <header class="major"><h2>¿Quieres colaborar?</h2></header>
+    <p>Diseño gráfico, desarrollo web, traducción, asesoría legal o donativos: cada aporte fortalece la misión.</p>
+    <ul class="actions">
+      <li><a href="/involucrate" class="button next">Involúcrate</a></li>
+    </ul>
+  </div>
+</section>
+
 </div>

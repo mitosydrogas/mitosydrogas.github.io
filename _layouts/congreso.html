@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+  <body>
+    {% include header.html %}
+
+    {%- assign has_poster = page.poster != nil and page.poster != '' -%}
+    {%- assign min = 0 -%}{%- assign max = 7 -%}
+    {%- assign diff = max | minus: min -%}
+    {%- assign randomNumber = "now" | date: "%N" | modulo: diff | plus: min -%}
+
+    {%- assign cover  = page.logo  | default: page.poster | default: '/assets/images/pic01.jpg' -%}
+    {%- assign has_cover = cover and cover != '' -%}
+
+    <!-- Banner (usa póster o color aleatorio) -->
+    <section
+      id="banner"
+      class="{% if has_poster %}major{% else %}style{{ randomNumber }}{% endif %}"
+    >
+      <div class="inner">
+        {% if has_cover%}
+        <span class="image">
+          <img src="{{ cover | relative_url }}" alt="" />
+        </span>
+        {% endif %}
+        <header class="major">
+          <h1>{{ page.title }}</h1>
+        </header>
+
+        <div class="content">
+          {% if page.place %}
+          <p><strong>Lugar:</strong> {{ page.place }}</p>
+          {% endif %}
+          {% if page.date %}
+          <p>
+            <strong>Fecha:</strong>
+            {{ page.date | date: "%-d %B %Y" }}
+          </p>
+          {% endif %}
+          {% if page.autores %}
+          <p>
+            <strong>Autor(es):</strong> {{ page.autores | join: ", " }}
+          </p>
+          {% endif %}
+          {% if page.summary %}
+          <p>{{ page.summary }}</p>
+          {% endif %}
+
+          <!-- Botones condicionales -->
+          <ul class="actions">
+            {% if page.poster %}
+            <li>
+              <a
+                href="{{ page.poster | relative_url }}"
+                class="button icon solid fa-image"
+                >Ver póster</a
+              >
+            </li>
+            {% endif %}
+            {% if page.slides %}
+            <li>
+              <a
+                href="{{ page.slides | relative_url }}"
+                class="button primary icon solid fa-file"
+                >Descargar diapositivas</a
+              >
+            </li>
+            {% endif %}
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main -->
+    <div id="main" class="alt">
+      <section id="one">
+        <div class="inner">
+          {{ content }}
+          <br />
+          <a href="/congresos" class="button small icon fa-undo"
+            >Volver a Congresos</a
+          >
+        </div>
+      </section>
+    </div>
+
+    {% include footer.html %}
+  </body>
+</html>

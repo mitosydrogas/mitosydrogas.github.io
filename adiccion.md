@@ -1,92 +1,112 @@
 ---
 layout: page
 title: "Adicción"
-description: Las substancias tienen riesgos de adicción, cada una de manera distinta y con riesgos de intensidad variable. Esta página explica los síntomas de una adicción e información sobre tratamientos y medidas precautorias para una adecuada prevención.
+description: Enfermedad biopsicosocial que provoca el consumo compulsivo de sustancias pese a las consecuencias; aquí encontrarás criterios diagnósticos, factores de riesgo y rutas de atención en México.
 image: assets/images/adiccion.jpeg
 nav-menu: true
 ---
 
 # Contenido
 
-- [¿Qué es la adicción?](#qué-es-la-adicción)
-- [Riesgos y dependencias](#riesgos-y-dependencias)
+- [Definición actual](#definición-actual)
+- [Mecanismos de riesgo y dependencia](#mecanismos-de-riesgo-y-dependencia)
   - [Dependencia física](#dependencia-física)
   - [Dependencia psicológica](#dependencia-psicológica)
-- [Clasificación de peligrosidad de las sustancias](#clasificación-de-peligrosidad-de-las-sustancias)
-- [Síntomas de una adicción](#síntomas-de-una-adicción)
-- [Tratamientos y medidas precautorias](#tratamientos-y-medidas-precautorias)
-- [Referencias y citas](#referencias-y-citas)
+- [Peligrosidad y potencial adictivo](#peligrosidad-y-potencial-adictivo)
+- [Signos de alarma](#signos-de-alarma)
+- [Tratamientos basados en evidencia](#tratamientos-basados-en-evidencia)
+- [Medidas de autocuidado y prevención](#medidas-de-autocuidado-y-prevención)
+- [Referencias](#referencias)
 
-## ¿Qué es la adicción?
+---
 
-La adicción es una enfermedad crónica y recurrente del cerebro caracterizada por la búsqueda y el uso compulsivo de sustancias a pesar de sus consecuencias perjudiciales. La adicción puede interferir con la capacidad de una persona para funcionar en la vida diaria y puede llevar a problemas físicos, psicológicos y sociales graves.
+## Definición actual
 
-## Riesgos y dependencias
+La **adicción** es, según la *DSM-5-TR*, un <em>trastorno por consumo de sustancias</em> (TCS) caracterizado por <strong>a)</strong> uso compulsivo, <strong>b)</strong> pérdida de control sobre la ingesta y <strong>c)</strong> persistencia a pesar de las consecuencias negativas.  
+Este trastorno se considera **crónico, recidivante y con base neurobiológica**, donde intervienen la desregulación del sistema dopaminérgico de recompensa, factores genéticos (≈ 50 % de la vulnerabilidad), ambientales y psicosociales.
+
+---
+
+## Mecanismos de riesgo y dependencia
 
 ### Dependencia física
+>
+> Adaptación del organismo que origina **síndrome de abstinencia** al suspender la sustancia.
 
-La dependencia física ocurre cuando el cuerpo se adapta a una sustancia y requiere su presencia para funcionar normalmente. Al interrumpir el consumo, se pueden experimentar síntomas de abstinencia que varían en intensidad según la sustancia.
-
-**Ejemplos de sustancias con alta dependencia física:**
-
-- Heroína
-- Alcohol
-- Benzodiacepinas
+| Sustancia | Síntomas de abstinencia |
+|-----------|------------------------|
+| Opioides (heroína, morfina) | Dolor musculoesquelético, diaforesis, náusea, piloerección |
+| Alcohol | Temblor, crisis convulsivas, delirium tremens |
+| Benzodiacepinas | Ansiedad rebote, insomnio severo, convulsiones |
+| Nicotina | Irritabilidad, aumento de apetito |
 
 ### Dependencia psicológica
 
-La dependencia psicológica se refiere a la necesidad emocional o mental de una sustancia para experimentar placer o aliviar el malestar emocional. Puede ser igual de poderosa que la dependencia física y también difícil de superar.
+Necesidad subjetiva de consumir para obtener placer o aliviar disforia. Puede persistir aun cuando la dependencia física ha sido resuelta (p. ej. cocaína, metanfetamina, cannabis).
 
-**Ejemplos de sustancias con alta dependencia psicológica:**
+---
 
-- Cocaína
-- Metanfetaminas
-- Nicotina
+## Peligrosidad y potencial adictivo
 
-## Clasificación de peligrosidad de las sustancias
+| Sustancia       | Peligrosidad* | Dep. Física | Dep. Psicológica |
+| --------------- | :-----------: | :---------: | :--------------: |
+| Heroína         | **Alta**      | Alta        | Alta             |
+| Metanfetamina   | **Alta**      | Alta        | Alta             |
+| Alcohol         | **Alta**      | Alta        | Alta             |
+| Cocaína         | Alta          | Moderada    | Alta             |
+| Benzodiacepinas | Alta          | Alta        | Moderada         |
+| Nicotina        | Alta          | Alta        | Alta             |
+| Cannabis        | Moderada      | Baja        | Moderada         |
+| MDMA            | Moderada      | Baja        | Moderada         |
+| LSD             | Baja          | Baja        | Baja-Moderada    |
+| Psilocibina     | Baja          | Baja        | Baja-Moderada    |
 
-Las sustancias pueden clasificarse según su peligrosidad y potencial adictivo. A continuación, una clasificación general:
+<small>*Combinación de toxicidad aguda, daño crónico y carga social. Adaptado de Nutt et al., 2010 y datos CONADIC 2023.</small>
 
-| Sustancia       | Peligrosidad | Dependencia Física | Dependencia Psicológica |
-| --------------- | ------------ | ------------------ | ----------------------- |
-| Heroína         | Alta         | Alta               | Alta                    |
-| Cocaína         | Alta         | Moderada           | Alta                    |
-| Alcohol         | Alta         | Alta               | Alta                    |
-| Metanfetaminas  | Alta         | Alta               | Alta                    |
-| Nicotina        | Alta         | Alta               | Alta                    |
-| Benzodiacepinas | Alta         | Alta               | Moderada                |
-| Cannabis        | Moderada     | Baja               | Moderada                |
-| LSD             | Baja         | Baja               | Moderada                |
-| Hongos mágicos  | Baja         | Baja               | Moderada                |
+---
 
-## Síntomas de una adicción
+## Signos de alarma
 
-Los síntomas de una adicción pueden incluir:
+1. **Pérdida de control**: intentos fallidos de reducir consumo.  
+2. **Craving**: deseo intenso, intrusivo.  
+3. **Tolerancia**: necesidad de dosis crecientes.  
+4. **Abandono de actividades** sociales o laborales.  
+5. **Uso continuado** a pesar de problemas médicos, legales o familiares.  
 
-- Deseo intenso de consumir la sustancia
-- Incapacidad para controlar el uso de la sustancia
-- Abandono de responsabilidades y actividades
-- Continuo uso de la sustancia a pesar de conocer sus consecuencias
-- Síntomas de abstinencia al intentar dejar de usar la sustancia
+Si identificas ≥ 2 criterios en 12 meses, consulta a un profesional (TCS leve-moderado); con ≥ 6 criterios se considera grave.
 
-## Tratamientos y medidas precautorias
+---
 
-El tratamiento de la adicción puede incluir:
+## Tratamientos basados en evidencia
 
-- **Terapia conductual**: Ayuda a modificar actitudes y comportamientos relacionados con el uso de sustancias y aumentar habilidades de vida.
-- **Medicamentos**: Pueden usarse para manejar los síntomas de abstinencia, prevenir recaídas y tratar condiciones concurrentes.
-- **Grupos de apoyo**: Como Alcohólicos Anónimos (AA) o Narcóticos Anónimos (NA), proporcionan apoyo social y compartición de experiencias.
-- **Desintoxicación supervisada**: En casos de dependencia física severa, puede ser necesaria una desintoxicación supervisada médicamente.
+| Modalidad | Indicaciones | Recursos en México |
+|-----------|--------------|--------------------|
+| **Terapias cognitivo-conductuales (TCC)** | Cualquier TCS | Centros Nueva Vida, clínicas privadas |
+| **Entrevista motivacional** | Fase de pre-contemplación | Psicólogos certificados |
+| **ISRS / IRSN** | Depresión o ansiedad comórbida | IMSS / ISSSTE / Servicios Estatales |
+| **Metadona / Buprenorfina** | Trastorno por opioides | CAPA* y UNEMES-CAPA |
+| **Naloxona de rescate** | Sobredosis opioides | ONG ReverdeSer, anexos CDMX |
+| **Desintoxicación hospitalaria** | Alcohol, benzos, poli-uso severo | Hospitales psiquiátricos INPRFM, Fray Bernardino |
 
-**Medidas precautorias incluyen:**
+<small>*Centros de Atención Primaria a las Adicciones (CONADIC).</small>
 
-- Educación sobre los riesgos de las sustancias
-- Desarrollo de habilidades de afrontamiento saludables
-- Acceso a apoyo social y psicológico
-- Evitar situaciones de alto riesgo
+---
 
-## Referencias y citas
+## Medidas de autocuidado y prevención
 
-- National Institute on Drug Abuse (NIDA). "Principles of Drug Addiction Treatment: A Research-Based Guide (Third Edition)." https://www.drugabuse.gov/publications/principles-drug-addiction-treatment-research-based-guide-third-edition
-- World Health Organization (WHO). "Management of substance abuse." https://www.who.int/substance_abuse/en/
-- American Psychiatric Association. "Diagnostic and Statistical Manual of Mental Disorders (DSM-5)."
+1. **Información fiable**: usa reactivos de testeo y tablas de dosificación.  
+2. **“Set & setting”**: cuidar estado emocional y entorno antes de consumir.  
+3. **Plan de consumo**: horario, dosis máxima y compañero sobrio.  
+4. **Periodos de descanso**: “T-breaks” para evitar tolerancia.  
+5. **Red de apoyo**: familia, amistades, pares o grupos 12-pasos.  
+6. **Primeros auxilios**: aprende RCP y ten naloxona/carabina si hay riesgo de opioides.
+
+---
+
+## Referencias
+
+- American Psychiatric Association. *DSM-5-TR*. Washington DC, 2022.  
+- Nutt D. et al. “Drug harms in the UK: a multicriteria decision analysis.” *Lancet* 376, 2010.  
+- NIDA. *Principles of Drug Addiction Treatment* (3rd ed.), 2024.  
+- CONADIC. *Informe Nacional sobre el Consumo de Drogas* 2023.  
+- WHO. *International Standards for the Treatment of Drug Use Disorders*, 2020.

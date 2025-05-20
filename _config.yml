@@ -13,12 +13,28 @@ author: Gerardo Ortega Alcocer
 # country: United States of America
 # phone: (716) 555-5555
 formspree: xwkkzoqq
+future: true
 
 # homepage tiles
 tiles-source: posts # accepts "posts" or "pages"
 tiles-count: 9
 
 permalink: drogas/:slug
+
+collections:
+  congresos:
+    output: true # genera HTML
+    permalink: /congresos/:path/
+    sort_by: date # orden cronológico
+    #future: true # mostrar próximos eventos
+defaults:
+  - scope:
+      path: "" # aplica a toda la colección
+      type: congresos
+    values:
+      layout: congreso # usa nuestro nuevo layout
+plugins:
+  - jekyll-paginate-v2
 
 exclude:
   - elements.md

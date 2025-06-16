@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Términos y Condiciones
-description: Información sobre los términos y condiciones de uso de Mitos y Drogas.
+description: Información sobre los términos y condiciones de uso de Mitos y Drogas. Actualizado el 1 de octubre de 2023.
 image: assets/images/legal.jpg
 nav-menu: true
-last_updated: 2025-06-16
+last_updated: 2023-10-01
 ---
 
 # Términos y Condiciones

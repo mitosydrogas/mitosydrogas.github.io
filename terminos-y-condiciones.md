@@ -2,42 +2,78 @@
 layout: page
 title: Términos y Condiciones
 description: Información sobre los términos y condiciones de uso de Mitos y Drogas.
-image: assets/images/legal-drug.jpg
+image: assets/images/legal.jpg
 nav-menu: true
+last_updated: 2025-06-16
 ---
 
 # Términos y Condiciones
 
-## Introducción
+## 1. Quiénes somos
 
-Estos Términos y Condiciones rigen el uso del sitio web de Mitos y Drogas. Al acceder a este sitio web, aceptas estar sujeto a estos términos y condiciones. Si no estás de acuerdo con estos términos, no deberías usar este sitio web.
+Mitos y Drogas es una iniciativa **sin fines de lucro** con propósito educativo y de reducción de daños. No vendemos productos ni servicios y todo el material se ofrece de forma abierta y gratuita.
 
-## Uso del Sitio
+## 2. Alcance de estos términos
 
-El contenido de este sitio es para tu información general y uso personal. Está sujeto a cambios sin previo aviso.
+Al acceder a <https://mitosydrogas.org> aceptas el presente aviso legal.  
+Si no estás de acuerdo, por favor abstente de utilizar el sitio.
 
-## Propiedad Intelectual
+## 3. Uso del contenido
 
-Este sitio web contiene material que es propiedad de o licenciado a nosotros. Este material incluye, pero no se limita a, el diseño, disposición, apariencia y gráficos. La reproducción está prohibida, salvo en conformidad con el aviso de derechos de autor, que forma parte de estos términos y condiciones.
+El contenido se proporciona **“tal cual”** y exclusivamente con fines informativos y educativos. No debe interpretarse como consejo médico, jurídico o profesional.
 
-## Enlaces a Otros Sitios
+## 4. Propiedad intelectual
 
-Este sitio puede incluir enlaces a otros sitios web. Estos enlaces se proporcionan para tu conveniencia para proporcionar más información. No significan que respaldemos el sitio(s). No tenemos ninguna responsabilidad por el contenido del sitio web vinculado.
+### 4.1 Contenido propio  
+Salvo que se indique lo contrario, textos originales y logotipos de Mitos y Drogas se publican bajo **Creative Commons Atribución-NoComercial-CompartirIgual 4.0** (CC BY-NC-SA 4.0).
 
-## Limitación de Responsabilidad
+### 4.2 Contenido de terceros  
+El sitio puede contener imágenes, gráficos y recursos procedentes de:
 
-Ni nosotros ni terceros proporcionamos ninguna garantía o seguridad en cuanto a la exactitud, puntualidad, rendimiento, integridad o idoneidad de la información y materiales encontrados u ofrecidos en este sitio web para cualquier propósito particular.
+* Bancos de imágenes gratuitos y de dominio público.  
+* Fuentes con licencias CC, GNU, MIT u otras licencias abiertas.  
+* Contribuciones de autores que conservan sus derechos.
 
-## Cambios en los Términos y Condiciones
+Nos esforzamos por atribuir correctamente cada obra. **Si identificas material cuyo uso consideras infractor, envía una notificación conforme a la sección 8 y lo retiraremos de inmediato.**
 
-Podemos revisar estos términos y condiciones en cualquier momento actualizando esta página. Debes visitar esta página de vez en cuando para revisar los términos y condiciones actualizados.
+### 4.3 Marcas registradas  
+Todas las marcas mencionadas pertenecen a sus respectivos titulares. Su aparición no implica patrocinio ni relación comercial.
 
-## Ley Aplicable
+## 5. Enlaces externos
 
-El uso de este sitio web y cualquier disputa que surja de dicho uso del sitio se rige por las leyes de México.
+Los enlaces se proporcionan solo para referencia. No controlamos ni garantizamos la actualidad o veracidad de sitios externos.
+
+## 6. Limitación de responsabilidad
+
+En la máxima medida permitida por la ley mexicana, declinamos toda responsabilidad por:
+
+* Errores u omisiones en el contenido.  
+* Daños directos o indirectos derivados del uso de la información publicada.  
+* Interrupciones, virus u otros problemas que puedan surgir al navegar.
+
+## 7. Cambios en el sitio y en estos términos
+
+Podemos actualizar contenidos, políticas o estos Términos sin previo aviso. La fecha de la última modificación figura en el encabezado del documento.
+
+## 8. Política de notificación y retirada (notice-and-takedown)
+
+Si eres titular de derechos y consideras que algún contenido vulnera tu propiedad intelectual:
+
+1. Envía un correo a **legal@mitosydrogas.org** con:  
+   * Identificación del material en cuestión (URL específica).  
+   * Prueba de titularidad o representación.  
+   * Datos de contacto.  
+2. Nos comprometemos a responder **en un plazo máximo de 5 días hábiles**.  
+3. En caso procedente, retiraremos o deshabilitaremos el acceso al contenido mientras investigamos.
+
+## 9. Ley aplicable y jurisdicción
+
+El presente aviso se rige por las leyes de los Estados Unidos Mexicanos.  
+Para cualquier controversia, las partes se someten a los tribunales competentes de la Ciudad de México, renunciando a cualquier otro fuero.
 
 ---
 
-## Contacto
+### 10. Contacto
 
-Si tienes alguna pregunta sobre estos Términos y Condiciones, por favor contáctanos en contacto@mitosydrogas.org.
+*Correo general*: [contacto@mitosydrogas.org](mailto:contacto@mitosydrogas.org)  
+*Avisos legales*: [legal@mitosydrogas.org](mailto:legal@mitosydrogas.org)

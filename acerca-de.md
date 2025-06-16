@@ -42,7 +42,7 @@ nav-menu: true
 
   <section>
     <a href="/adiccion" class="image">
-      <img src="assets/images/addiction.webp" alt="" data-position="top center" />
+      <img src="assets/images/adiccion.jpeg" alt="" data-position="top center" />
     </a>
     <div class="content">
       <div class="inner">

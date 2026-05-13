@@ -102,15 +102,18 @@
 			font-weight: 300;
 			left: 50%;
 			line-height: 1.4;
-			max-width: 18rem;
+			max-width: calc(100vw - 2rem);
 			opacity: 0;
+			overflow-wrap: break-word;
 			padding: 0.75em 1em;
 			pointer-events: none;
 			position: absolute;
 			text-align: left;
 			transform: translateX(-50%) translateY(0.25em);
 			transition: opacity 0.2s ease, transform 0.2s ease;
-			width: max-content;
+			visibility: hidden;
+			white-space: normal;
+			width: 18rem;
 			z-index: 1000;
 		}
 
@@ -118,6 +121,7 @@
 		> a:focus + .ref-preview {
 			opacity: 1;
 			transform: translateX(-50%) translateY(0);
+			visibility: visible;
 		}
 	}
 
@@ -126,7 +130,7 @@
 			left: auto;
 			right: 0;
 			transform: translateY(0.25em);
-			width: 16rem;
+			width: calc(100vw - 2rem);
 		}
 
 		.ref:hover .ref-preview,

@@ -32,10 +32,10 @@ nav-menu: true
     </a>
     <div class="content">
       <div class="inner">
-        <header class="major"><h3>Substancias</h3></header>
+        <header class="major"><h3>Sustancias</h3></header>
         <p>Catálogo interactivo con nombres alternativos, dosis, efectos, riesgos y primeros auxilios por cada molécula.</p>
         <ul class="actions">
-          <li><a href="/drogas" class="button">Ver substancias…</a></li>
+          <li><a href="/drogas" class="button">Ver sustancias</a></li>
         </ul>
       </div>
     </div>

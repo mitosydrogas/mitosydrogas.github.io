@@ -14,7 +14,7 @@
         <div class="content">
           <p style="text-transform: uppercase;">{{ site.description }}</p>
           <ul class="actions">
-            <li><a href="#one" class="button next scrolly">Información</a></li>
+            <li><a href="#orientacion" class="button next scrolly">Orientarme</a></li>
             <li><a href="{{ site.interacciones_url }}" class="button" target="_blank" rel="noopener noreferrer">Interacciones</a></li>
           </ul>
         </div>
@@ -23,12 +23,45 @@
 
     <!-- Main -->
     <div id="main">
+      <section id="orientacion">
+        <div class="inner">
+          <header class="major">
+            <h2>¿Qué necesitas consultar?</h2>
+          </header>
+          <div class="card-grid nav-cards">
+            <article class="box">
+              <span class="icon alt fa-medkit"></span>
+              <h3>Sustancias</h3>
+              <p>Información clara sobre efectos, duración, dosis, reducción de daños y emergencias.</p>
+              <a href="/drogas" class="button small">Explorar sustancias</a>
+            </article>
+            <article class="box">
+              <span class="icon alt fa-exchange"></span>
+              <h3>Interacciones</h3>
+              <p>Consulta combinaciones entre sustancias para identificar riesgos, sinergias y señales de alerta.</p>
+              <a href="{{ site.interacciones_url }}" class="button small" target="_blank" rel="noopener noreferrer">Abrir herramienta</a>
+            </article>
+            <article class="box">
+              <span class="icon alt fa-heartbeat"></span>
+              <h3>Adicción</h3>
+              <p>Conceptos básicos, signos de alarma, dependencia, rutas de atención y tratamientos con evidencia.</p>
+              <a href="/adiccion" class="button small">Leer guía</a>
+            </article>
+            <article class="box">
+              <span class="icon alt fa-balance-scale"></span>
+              <h3>Legalidad</h3>
+              <p>Marco legal mexicano, tabla de posesión, derechos y puntos clave para reducir riesgos jurídicos.</p>
+              <a href="/legalidad" class="button small">Ver legalidad</a>
+            </article>
+          </div>
+        </div>
+      </section>
       <!-- One -->
       {% include tiles.html %}
       <ul class="actions" style="text-align: center; padding-top: 5%;">
         <li>
           <a href="/drogas" class="button icon fa-medkit"
-            >Ver todas las substancias</a
+            >Ver sustancias</a
           >
         </li>
         <li>
@@ -51,6 +84,30 @@
               >
             </li>
           </ul>
+        </div>
+      </section>
+      <section id="institucional">
+        <div class="inner">
+          <header class="major">
+            <h2>Recursos institucionales</h2>
+          </header>
+          <div class="card-grid nav-cards compact">
+            <article class="box">
+              <h3>Acerca de</h3>
+              <p>Conoce el propósito, enfoque editorial y visión de Mitos y Drogas.</p>
+              <a href="/acerca-de" class="button small">Conocer el proyecto</a>
+            </article>
+            <article class="box">
+              <h3>Congresos</h3>
+              <p>Materiales, ponencias y participación del proyecto en espacios académicos.</p>
+              <a href="/congresos" class="button small">Ver congresos</a>
+            </article>
+            <article class="box">
+              <h3>Involúcrate</h3>
+              <p>Formas de colaborar, apoyar o sumarte a la iniciativa.</p>
+              <a href="/involucrate" class="button small">Participar</a>
+            </article>
+          </div>
         </div>
       </section>
     </div>

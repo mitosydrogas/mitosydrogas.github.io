@@ -7,7 +7,65 @@
 
     <!-- Main -->
     <div id="main" class="alt">
+      <section id="sustancias-intro">
+        <div class="inner">
+          <header class="major">
+            <h1>Sustancias</h1>
+          </header>
+          <p>Explora información clara sobre efectos, duración, dosis, reducción de daños, emergencias, legalidad y referencias. Si prefieres navegar por familias de efectos, también puedes ir a las <a href="#categorias">categorías por grupo</a>.</p>
+        </div>
+      </section>
       {% include tiles.html %}
+      <section id="categorias">
+        <div class="inner">
+          <header class="major">
+            <h2>Categorías por grupo</h2>
+          </header>
+          <p>Estas categorías son orientativas: algunas sustancias pueden tener efectos mixtos o pertenecer a más de un grupo.</p>
+          <div class="card-grid substance-groups">
+            <article class="box">
+              <h3>Psicodélicos</h3>
+              <ul>
+                {% for post in site.posts %}
+                  {% if post.classifications contains 'Alucinógeno' %}
+                    <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+            </article>
+            <article class="box">
+              <h3>Estimulantes</h3>
+              <ul>
+                {% for post in site.posts %}
+                  {% if post.classifications contains 'Estimulante' %}
+                    <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+            </article>
+            <article class="box">
+              <h3>Opioides y depresores</h3>
+              <ul>
+                {% for post in site.posts %}
+                  {% if post.classifications contains 'Opioide' or post.classifications contains 'Depresor' %}
+                    <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+            </article>
+            <article class="box">
+              <h3>Cannabis y efectos mixtos</h3>
+              <ul>
+                {% for post in site.posts %}
+                  {% if post.names contains 'Cannabis' or post.classifications contains 'Estimulante-sedante-psicodélico' %}
+                    <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
       {% include interacciones-cta.html %}
       <!-- One -->
       <!-- <section id="one">

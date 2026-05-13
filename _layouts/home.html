@@ -14,7 +14,7 @@
         <div class="content">
           <p style="text-transform: uppercase;">{{ site.description }}</p>
           <ul class="actions">
-            <li><a href="#orientacion" class="button next scrolly">Orientarme</a></li>
+            <li><a href="#one" class="button next scrolly">Orientarme</a></li>
             <li><a href="{{ site.interacciones_url }}" class="button" target="_blank" rel="noopener noreferrer">Interacciones</a></li>
           </ul>
         </div>
@@ -23,6 +23,20 @@
 
     <!-- Main -->
     <div id="main">
+      <!-- One -->
+      {% include tiles.html %}
+      <ul class="actions" style="text-align: center; padding-top: 5%;">
+        <li>
+          <a href="/drogas" class="button icon fa-medkit"
+            >Ver sustancias</a
+          >
+        </li>
+        <li>
+          <a href="{{ site.interacciones_url }}" class="button icon fa-exchange" target="_blank" rel="noopener noreferrer"
+            >Consultar interacciones</a
+          >
+        </li>
+      </ul>
       <section id="orientacion">
         <div class="inner">
           <header class="major">
@@ -56,20 +70,6 @@
           </div>
         </div>
       </section>
-      <!-- One -->
-      {% include tiles.html %}
-      <ul class="actions" style="text-align: center; padding-top: 5%;">
-        <li>
-          <a href="/drogas" class="button icon fa-medkit"
-            >Ver sustancias</a
-          >
-        </li>
-        <li>
-          <a href="{{ site.interacciones_url }}" class="button icon fa-exchange" target="_blank" rel="noopener noreferrer"
-            >Consultar interacciones</a
-          >
-        </li>
-      </ul>
       <!-- Two -->
       <section id="two">
         <div class="inner">

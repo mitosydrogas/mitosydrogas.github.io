@@ -138,3 +138,22 @@
 			transform: translateY(0);
 		}
 	}
+
+	.post-content {
+		a:not(.button) {
+			border-bottom: dotted 1px _palette(fg-light);
+			color: _palette(highlight);
+			text-decoration: none;
+			transition: border-color 0.2s ease, color 0.2s ease;
+		}
+
+		a:not(.button):hover,
+		a:not(.button):focus {
+			border-bottom-color: transparent;
+			color: _palette(fg-bold);
+		}
+
+		.ref > a {
+			border-bottom: 0;
+		}
+	}

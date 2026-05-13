@@ -29,11 +29,22 @@
           <a href="/drogas" class="button small icon fa-undo"
             >Todas las Drogas</a
           >
+          {% if page.collection == 'posts' %}
+          <a href="{{ site.interacciones_url }}" class="button small icon fa-exchange" target="_blank" rel="noopener noreferrer"
+            >Interacciones</a
+          >
+          {% endif %}
           {% if page.image %}<span class="image main"
             ><img src="{{ site.baseurl }}/{{ page.image }}" alt=""/></span
           >{% endif %}
           <p>{{ content }}</p>
+          {% if page.collection == 'posts' %}
+          <p><strong>Antes de combinar sustancias:</strong> consulta <a href="{{ site.interacciones_url }}" target="_blank" rel="noopener noreferrer">Interacciones</a> para revisar posibles sinergias, riesgos y recomendaciones de reducción de daños.</p>
           <a href="/drogas" class="button icon fa-undo">Todas las Drogas</a>
+          <a href="{{ site.interacciones_url }}" class="button icon fa-exchange" target="_blank" rel="noopener noreferrer">Consultar interacciones</a>
+          {% else %}
+          <a href="/drogas" class="button icon fa-undo">Todas las Drogas</a>
+          {% endif %}
         </div>
       </section>
     </div>

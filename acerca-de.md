@@ -19,6 +19,7 @@ nav-menu: true
   <p><strong>Mitos y Drogas</strong> es un proyecto independiente creado por <em>Gerardo Ortega Alcocer</em> con el propósito de ofrecer <strong>información científica, comprensible y sin estigma</strong> sobre sustancias psicoactivas en México. A través de contenidos interactivos, guías de reducción de daños y acompañamiento legal, el sitio busca que cada persona usuaria ejerza su derecho a la salud y a la autodeterminación.</p>
 
   <p>La plataforma reúne fichas detalladas de sustancias, análisis legales actualizados y recursos prácticos para situaciones cotidianas —desde festivales de música hasta encuentros con la autoridad— con un enfoque de derechos humanos.</p>
+  <p>También incluye <a href="{{ site.interacciones_url }}" target="_blank" rel="noopener noreferrer">Interacciones</a>, una herramienta interactiva para comparar dos sustancias y revisar sinergias, riesgos, expectativas e información útil antes de tomar decisiones.</p>
   </div>
 </section>
 
@@ -65,6 +66,21 @@ nav-menu: true
         <p>Guías sobre derechos, cantidades de tolerancia, procesos ante el Ministerio Público y legislación emergente.</p>
         <ul class="actions">
           <li><a href="/legalidad" class="button">Consultar artículo</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <a href="{{ site.interacciones_url }}" class="image" target="_blank" rel="noopener noreferrer">
+      <img src="assets/images/capsulas.jpeg" alt="" data-position="center center" />
+    </a>
+    <div class="content">
+      <div class="inner">
+        <header class="major"><h3>Interacciones</h3></header>
+        <p>Herramienta interactiva para elegir dos sustancias y consultar posibles sinergias, riesgos y recomendaciones prácticas de reducción de daños.</p>
+        <ul class="actions">
+          <li><a href="{{ site.interacciones_url }}" class="button" target="_blank" rel="noopener noreferrer">Abrir herramienta</a></li>
         </ul>
       </div>
     </div>

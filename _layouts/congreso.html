@@ -5,13 +5,19 @@
   <body>
     {% include header.html %}
 
-    {%- assign has_poster = page.poster != nil and page.poster != '' -%}
+    {%- assign has_poster = false -%}
+    {%- if page.poster and page.poster != '' -%}
+      {%- assign has_poster = true -%}
+    {%- endif -%}
     {%- assign min = 0 -%}{%- assign max = 7 -%}
     {%- assign diff = max | minus: min -%}
     {%- assign randomNumber = "now" | date: "%N" | modulo: diff | plus: min -%}
 
-    {%- assign cover  = page.logo  | default: page.poster | default: '/assets/images/pic01.jpg' -%}
-    {%- assign has_cover = cover and cover != '' -%}
+    {%- assign cover = page.logo | default: page.poster | default: '/assets/images/pic01.jpg' -%}
+    {%- assign has_cover = false -%}
+    {%- if cover and cover != '' -%}
+      {%- assign has_cover = true -%}
+    {%- endif -%}
 
     <!-- Banner (usa póster o color aleatorio) -->
     <section

@@ -48,6 +48,47 @@ github_url: https://github.com/mitosydrogas
 # googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
 instagram_url: https://instagram.com/mitosydrogas
 interacciones_url: https://interacciones.mitosydrogas.org
+
+# ordered navigation
+nav_links:
+  - title: Inicio
+    url: /
+  - title: Acerca de
+    url: /acerca-de
+  - title: Sustancias
+    url: /drogas
+  - title: Adicción
+    url: /adiccion
+  - title: Interacciones
+    url: https://interacciones.mitosydrogas.org
+    external: true
+  - title: Congresos
+    url: /congresos
+  - title: Involúcrate
+    url: /involucrate
+  - title: Legalidad
+    url: /legalidad
+
+quick_links:
+  - title: Sustancias
+    url: /drogas
+  - title: Interacciones
+    url: https://interacciones.mitosydrogas.org
+    external: true
+  - title: Adicción
+    url: /adiccion
+  - title: Acerca de
+    url: /acerca-de
+  - title: Congresos
+    url: /congresos
+  - title: Involúcrate
+    url: /involucrate
+  - title: Legalidad
+    url: /legalidad
+  - title: Aviso de Privacidad
+    url: /aviso-de-privacidad
+  - title: Términos y Condiciones
+    url: /terminos-y-condiciones
 # linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
 # pinterest_url:
 # slack_url:

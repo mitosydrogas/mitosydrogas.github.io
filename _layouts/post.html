@@ -27,7 +27,7 @@
             {% endif %}
           </header>
           <a href="/drogas" class="button small icon fa-undo"
-            >Todas las Drogas</a
+			>Sustancias</a
           >
           {% if page.collection == 'posts' %}
           <a href="{{ site.interacciones_url }}" class="button small icon fa-exchange" target="_blank" rel="noopener noreferrer"
@@ -40,10 +40,10 @@
           <div class="post-content js-linkify-urls">{{ content }}</div>
           {% if page.collection == 'posts' %}
           <p><strong>Antes de combinar sustancias:</strong> consulta <a href="{{ site.interacciones_url }}" target="_blank" rel="noopener noreferrer">Interacciones</a> para revisar posibles sinergias, riesgos y recomendaciones de reducción de daños.</p>
-          <a href="/drogas" class="button icon fa-undo">Todas las Drogas</a>
+          <a href="/drogas" class="button icon fa-undo">Sustancias</a>
           <a href="{{ site.interacciones_url }}" class="button icon fa-exchange" target="_blank" rel="noopener noreferrer">Consultar interacciones</a>
           {% else %}
-          <a href="/drogas" class="button icon fa-undo">Todas las Drogas</a>
+          <a href="/drogas" class="button icon fa-undo">Sustancias</a>
           {% endif %}
         </div>
       </section>

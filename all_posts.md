@@ -1,7 +1,7 @@
 ---
 layout: allposts
-title: Todas las Drogas
-landing-title: 'Todas las Drogas'
+title: Sustancias
+landing-title: 'Sustancias'
 nav-menu: true
 description: null
 image: null

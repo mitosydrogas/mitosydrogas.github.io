@@ -33,14 +33,11 @@
 				<div class="contact-method">
 					<span class="icon alt fa-link"></span>
 					<h3>Links Rápidos</h3>
-					<span>
-					{% for page in site.pages %}
-							{% if page.nav-menu == true %}
-									<li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
-							{% endif %}
+					<ul>
+					{% for item in site.quick_links %}
+						<li><a href="{{ item.url | absolute_url }}"{% if item.external %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ item.title }}</a></li>
 					{% endfor %}
-					<li><a href="{{ site.interacciones_url }}" target="_blank" rel="noopener noreferrer">Interacciones</a></li>
-					</span>
+					</ul>
 				</div>
 			</section>
 		</section>

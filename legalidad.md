@@ -2,7 +2,7 @@
 layout: page
 title: Legalidad
 description: Información relevante para interactuar con la ley en México cuando se usan sustancias psicoactivas.
-image: assets/images/legal-drug.jpg
+image: assets/images/legal-drugs.png
 nav-menu: true
 ---
 

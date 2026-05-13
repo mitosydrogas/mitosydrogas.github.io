@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Metanfetamina: estimulación, sueño y riesgo neuropsiquiátrico"
+title: "Metanfetamina: energía de alto impacto"
 description: Estimulante potente del sistema nervioso central asociado a euforia, vigilia, dependencia y toxicidad cardiovascular o psiquiátrica.
 image: assets/images/methanfetamines.jpg
 names:

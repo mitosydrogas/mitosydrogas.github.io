@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cannabis / mariguana: potencia, contexto y cuidado"
+title: "Mariguana: más allá del humo"
 description: Planta y productos derivados con efectos variables según THC, CBD, vía de administración, frecuencia y contexto.
 image: assets/images/cannabis.jpeg
 names:

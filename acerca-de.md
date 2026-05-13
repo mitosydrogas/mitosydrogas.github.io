@@ -88,20 +88,26 @@ nav-menu: true
 
 </section>
 
-<!-- Three — Visión y Metas -->
+<!-- Three — Visión y objetivos -->
 <section id="three">
   <div class="inner">
     <header class="major"><h2>Visión y objetivos</h2></header>
 
-  <p>El proyecto aspira a convertirse en la <strong>referencia latinoamericana de divulgación en reducción de daños</strong>, integrando ciencia de frontera, incidencia legislativa y defensa legal.</p>
+  <p><strong>Mitos y Drogas</strong> nace como una organización de divulgación científica, educación pública y reducción de daños orientada a transformar la forma en que México y América Latina hablan sobre sustancias psicoactivas: con evidencia, dignidad, pensamiento crítico y responsabilidad social. Su visión parte de que la reducción de daños no promueve el consumo, sino que busca disminuir sus consecuencias negativas en salud, sociedad y derechos, especialmente frente a contextos de criminalización, desinformación y estigma.<sup class="ref"><a href="#ref-acerca-1">1</a><span class="ref-preview">Harm Reduction International. What is Harm Reduction?</span></sup></p>
 
   <ul>
-    <li>Ofrecer <strong>100 fichas de sustancias</strong> y modelos de interacción segura para 2026.</li>
-    <li>Capacitar a <strong>5 000 profesionales</strong> de salud, derecho y educación en enfoques de salud pública.</li>
-    <li>Publicar un <strong>Observatorio de Casos</strong> que documente abusos policiales y sentencias paradigmáticas.</li>
+    <li><strong>Construir información clara, rigurosa y accesible</strong> sobre sustancias psicoactivas, integrando neurociencia, farmacología, historia, salud pública, cultura y política de drogas para combatir mitos, prejuicios y narrativas alarmistas.</li>
+    <li><strong>Promover una cultura de reducción de daños en México y América Latina</strong>, ofreciendo herramientas prácticas para la prevención, el autocuidado y la toma de decisiones informada de personas usuarias, familias, comunidades e instituciones.</li>
+    <li><strong>Consolidarse como una NGO latinoamericana referente en investigación de frontera y divulgación pública</strong>, capaz de vincular ciencia, educación, derechos humanos y acción comunitaria frente a un panorama global de drogas cada vez más complejo.<sup class="ref"><a href="#ref-acerca-2">2</a><span class="ref-preview">UNODC. World Drug Report 2025.</span></sup></li>
   </ul>
 
   <p>Consulta la sección de <a href="/congresos" class="link">Congresos</a> para ver la participación de Mitos y Drogas en foros académicos y profesionales.</p>
+
+  <h3>Referencias</h3>
+  <ol>
+    <li id="ref-acerca-1">Harm Reduction International. <a href="https://hri.global/what-is-harm-reduction/" target="_blank" rel="noopener noreferrer">What is Harm Reduction?</a></li>
+    <li id="ref-acerca-2">United Nations Office on Drugs and Crime. <a href="https://www.unodc.org/unodc/data-and-analysis/world-drug-report-2025.html" target="_blank" rel="noopener noreferrer">World Drug Report 2025</a></li>
+  </ol>
   </div>
 </section>
 
@@ -109,7 +115,7 @@ nav-menu: true
 <section id="four" class="spotlights">
   <section>
     <a class="image">
-      <img src="assets/images/gerardo.jpg" alt="Gerardo Ortega Alcocer" data-position="center center"/>
+      <img src="assets/images/gerardo.jpeg" alt="Gerardo Ortega Alcocer" data-position="center center"/>
     </a>
     <div class="content">
       <div class="inner">

@@ -1,45 +1,61 @@
 ---
 layout: page
 title: Involúcrate
-description: ¿Quieres colaborar con nosotros? Esta página tiene toda la información requerida para unirte y comenzar a ser parte de Mitos y Drogas.
+description: Súmate a Mitos y Drogas desde investigación, comunicación, diseño, desarrollo, educación o trabajo comunitario.
 image: assets/images/equipo.jpeg
 nav-menu: true
 ---
 
-## ¿Quiénes somos?
+## Construyamos información pública más útil
 
-**Mitos y Drogas** es una organización sin ánimo de lucro dedicada a proporcionar información precisa y accesible sobre el uso, legalidad, efectos y consecuencias sociales de las drogas en México. Nuestro objetivo es educar y empoderar a las personas, especialmente a los grupos vulnerables, a través de plataformas digitales y otros medios.
+**Mitos y Drogas** existe para mejorar la conversación sobre sustancias psicoactivas en México y América Latina: con evidencia, reducción de daños, lenguaje claro y sin estigma.
 
-### Colaboradores
+El proyecto necesita más personas que quieran convertir conocimiento científico, experiencia comunitaria y herramientas digitales en recursos accesibles para quienes toman decisiones, acompañan a otras personas o simplemente buscan entender mejor el tema.
 
-- Gerardo Ortega Alcocer.
-- Humberto A. Ortega Alcocer.
+No buscamos voces perfectas ni currículums imposibles. Buscamos colaboración cuidadosa, curiosidad, sensibilidad y compromiso con información pública responsable.
 
-## Áreas de apoyo
+## Formas de colaborar
 
-Si deseas colaborar con nosotros, hay muchas áreas donde puedes contribuir. Cada una es igual de importante y útil para nuestra misión. Si no ves tu área de interés aquí, no dudes en contactarnos con tu propuesta de colaboración.
+Puedes sumarte desde distintas áreas. Algunas necesidades actuales son:
 
-- Mantenimiento y desarrollo de micro-sitios.
-- Diseño gráfico.
-- Marketing y publicidad.
-- Comunicación.
-- Producción de audio y video.
-- Redacción y edición de contenido.
-- Escritura creativa.
+- **Investigación y revisión científica:** búsqueda de fuentes, lectura crítica, verificación de datos y actualización de contenidos.
+- **Redacción y edición:** adaptar textos complejos a lenguaje claro, corregir tono, estructura y precisión.
+- **Diseño e ilustración:** crear gráficos, infografías, visuales para redes, materiales descargables o recursos educativos.
+- **Desarrollo web:** mejorar el sitio, optimizar accesibilidad, SEO, rendimiento, componentes y herramientas interactivas.
+- **Comunicación y comunidad:** redes sociales, newsletters, campañas, moderación, difusión y alianzas.
+- **Traducción y accesibilidad:** adaptar contenidos a otros idiomas, lectura fácil, formatos inclusivos o materiales para públicos específicos.
+- **Eventos y vinculación:** apoyo en congresos, talleres, mesas de diálogo, universidades, colectivas u organizaciones aliadas.
+- **Reducción de daños:** aportar experiencia comunitaria, clínica, territorial o educativa para que los contenidos sean más realistas y útiles.
 
-## Donaciones
+Si tu área no aparece aquí, también nos interesa escucharte. Muchas mejoras empiezan con una idea que no estaba en la lista.
 
-En **Mitos y Drogas** estamos comprometidos con nuestra misión, pero alcanzar nuestros objetivos requiere más que solo esfuerzo y dedicación. Tu apoyo financiero es crucial para expandir nuestro alcance y llevar información vital a más personas. Agradecemos cualquier cantidad que puedas donar. Aquí te proporcionamos varios métodos de donación para que elijas el que te sea más conveniente:
+## Qué cuidamos
 
-- **Criptomonedas**:
-  - Ethereum: [dirección de Ethereum][eth-wallet]
-  - Bitcoin: [dirección de Bitcoin][btc-wallet]
-- **PayPal**: [link de donación en PayPal][paypal-link]
+Trabajamos con temas sensibles. Por eso, cualquier colaboración debe cuidar:
 
-> "Las personas siempre van a usar drogas. Las personas siempre han usado drogas. Tenemos que vivir con ello."
->
-> – Dr. Carl Hart
+- Rigor sin alarmismo.
+- Lenguaje no estigmatizante.
+- Respeto por personas usuarias, familias, comunidades y profesionales de salud.
+- Perspectiva de derechos humanos, salud pública y reducción de daños.
+- Claridad sobre límites: informar no es promover consumo ni sustituir atención médica o legal.
+- Disposición a revisar, corregir y construir colectivamente.
 
-[eth-wallet]: 0x28e6564CBE8ef66736c7DC2A6686b1E9A745d82B
-[btc-wallet]: 0x28e6564CBE8ef66736c7DC2A6686b1E9A745d82B
-[paypal-link]: https://paypal.me
+## No necesitas ser especialista
+
+Puedes aportar desde muchos lugares: experiencia académica, clínica, técnica, creativa, comunitaria, periodística, legal, educativa o vivida. Lo importante es que el trabajo se haga con cuidado, honestidad y apertura a la revisión.
+
+También puedes escribirnos si quieres proponer una corrección, sugerir una fuente, reportar un error, compartir una necesidad de tu comunidad o plantear una colaboración institucional.
+
+## Escríbenos
+
+Si te interesa participar, usa el formulario de contacto al final de esta página y cuéntanos brevemente:
+
+- Quién eres o desde dónde nos escribes.
+- Qué área de colaboración te interesa.
+- Qué experiencia o habilidades te gustaría aportar, si aplica.
+- Cuánto tiempo podrías dedicar o qué tipo de participación buscas.
+- Qué te gustaría mejorar, construir o investigar dentro del proyecto.
+
+<a href="#contact" class="button next scrolly">Ir al formulario de contacto</a>
+
+No prometemos responder de inmediato, pero sí leer con atención. Si la propuesta hace sentido para el momento del proyecto, buscaremos una forma concreta de colaborar.

@@ -196,6 +196,155 @@
 
 			});
 
+				var reducedMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+				var $companion = $('.landing-companion'),
+					$companionText = $('.landing-companion__text'),
+					$companionCta = $('.landing-companion__cta'),
+					companionTips = [
+						{ text: 'Psst… infórmate, hidrátate y no mezcles a ciegas.', url: '/drogas', action: 'Ver guías' },
+						{ text: 'Si algo se siente mal: pausa, acompaña y pide ayuda temprano.', url: '/adiccion', action: 'Señales de alerta' },
+						{ text: 'Revisa duración y redosis: muchas emergencias empiezan por impaciencia.', url: '/drogas', action: 'Explorar sustancias' },
+						{ text: 'Combinar sustancias cambia el riesgo. Consulta interacciones antes.', url: 'https://interacciones.mitosydrogas.org', action: 'Ver interacciones' },
+						{ text: 'Empieza bajo, ve lento y nunca consumas sin información confiable.', url: '/drogas', action: 'Leer guías' }
+					],
+					tipIndex = 0,
+					messageTimer,
+					speakingTimer,
+					curiosityTimer;
+
+				if ($companion.length > 0) {
+
+					var showCompanionMessage = function(tip, url, action) {
+
+						window.clearTimeout(messageTimer);
+						window.clearTimeout(speakingTimer);
+
+						if (!tip) {
+							tip = companionTips[tipIndex % companionTips.length];
+							tipIndex++;
+						}
+
+						if (typeof tip == 'object') {
+							url = tip.url;
+							action = tip.action;
+							tip = tip.text;
+						}
+
+						$companionText.text(tip);
+						$companionCta
+							.attr('href', url || '/drogas')
+							.attr('target', (url && url.indexOf('http') === 0) ? '_blank' : null)
+							.attr('rel', (url && url.indexOf('http') === 0) ? 'noopener noreferrer' : null)
+							.text(action || 'Ver guía');
+						$companion.addClass('has-message is-curious is-speaking');
+
+						speakingTimer = window.setTimeout(function() {
+							$companion.removeClass('is-speaking');
+						}, 900);
+
+						messageTimer = window.setTimeout(function() {
+							$companion.removeClass('has-message');
+						}, 6200);
+
+					};
+
+					var scheduleCuriosity = function() {
+
+						if (reducedMotion)
+							return;
+
+						curiosityTimer = window.setTimeout(function() {
+
+							if ($window.scrollTop() > ($banner.outerHeight() * 0.65)) {
+								scheduleCuriosity();
+								return;
+							}
+
+						showCompanionMessage(companionTips[tipIndex % companionTips.length]);
+						tipIndex++;
+
+							window.setTimeout(function() {
+								$companion.removeClass('is-curious');
+								scheduleCuriosity();
+							}, 2600);
+
+						}, 5200 + Math.random() * 5200);
+
+					};
+
+					$companion.on('click', function(event) {
+						event.preventDefault();
+						showCompanionMessage();
+					});
+
+					$companion.on('keydown', function(event) {
+						if ($(event.target).is('.landing-companion__cta'))
+							return;
+
+						if (event.keyCode == 13 || event.keyCode == 32) {
+							event.preventDefault();
+							showCompanionMessage();
+						}
+					});
+
+					$companionCta.on('click', function(event) {
+						event.stopPropagation();
+					});
+
+					$companion.on('mouseenter focus', function() {
+						if (!$companion.hasClass('has-message'))
+							showCompanionMessage('Soy Xolotl: toca los botones o pasa por una sustancia y te doy una pista.', '/drogas', 'Empezar');
+					});
+
+					$('[data-companion-tip]').on('mouseenter focus', function() {
+						showCompanionMessage($(this).data('companion-tip'), $(this).data('companion-url'), $(this).data('companion-action'));
+					});
+
+					$tiles.on('mouseenter focusin', function() {
+						var title = $.trim($(this).find('h3').text());
+
+						if (title)
+							showCompanionMessage('Guía de ' + title + ': revisa duración, riesgos y señales de alerta.', $(this).find('.link').attr('href'), 'Abrir guía');
+					});
+
+					$banner.on('mousemove', function(event) {
+
+						if (reducedMotion || skel.breakpoint('small').active)
+							return;
+
+						var x = ((event.clientX / Math.max(window.innerWidth, 1)) - 0.5) * 34,
+							y = ((event.clientY / Math.max(window.innerHeight, 1)) - 0.5) * 22;
+
+						$companion
+							.addClass('is-curious')
+							.css({
+								'--companion-x': x.toFixed(1) + 'px',
+								'--companion-y': y.toFixed(1) + 'px'
+							});
+
+					});
+
+					$banner.on('mouseleave', function() {
+						$companion.removeClass('is-curious');
+					});
+
+					$window.on('scroll.companion', function() {
+						if ($window.scrollTop() > ($banner.outerHeight() * 0.85)) {
+							$companion.removeClass('has-message is-curious');
+							window.clearTimeout(messageTimer);
+						}
+					});
+
+					window.clearTimeout(curiosityTimer);
+					window.setTimeout(function() {
+						if ($window.scrollTop() < 40 && !$companion.hasClass('has-message'))
+							showCompanionMessage({ text: 'Hola, soy Xolotl. Tócame para recibir pistas rápidas mientras exploras.', url: '/drogas', action: 'Ver guías' });
+					}, 900);
+					scheduleCuriosity();
+
+				}
+
 		// Header.
 			if (skel.vars.IEVersion < 9)
 				$header.removeClass('alt');

@@ -14,10 +14,39 @@
         <div class="content">
           <p style="text-transform: uppercase;">{{ site.description }}</p>
           <ul class="actions">
-            <li><a href="#one" class="button next scrolly">Orientarme</a></li>
-            <li><a href="{{ site.interacciones_url }}" class="button" target="_blank" rel="noopener noreferrer">Interacciones</a></li>
+            <li><a href="#one" class="button next scrolly" data-companion-tip="Te llevo a las guías de sustancias. Lee efectos, duración y riesgos antes de decidir." data-companion-url="/drogas" data-companion-action="Ver sustancias">Orientarme</a></li>
+            <li><a href="{{ site.interacciones_url }}" class="button" target="_blank" rel="noopener noreferrer" data-companion-tip="Buena idea: las mezclas cambian el riesgo. Revisa interacciones antes de combinar." data-companion-url="{{ site.interacciones_url }}" data-companion-action="Abrir interacciones">Interacciones</a></li>
           </ul>
         </div>
+      </div>
+
+      <div class="landing-companion" role="button" tabindex="0" aria-label="Mostrar mensaje de Xolotl, guía de reducción de daños">
+        <span class="landing-companion__bubble">
+          <span class="landing-companion__text">Psst… infórmate, hidrátate y no mezcles a ciegas.</span>
+          <a class="landing-companion__cta" href="/drogas">Ver guía</a>
+        </span>
+        <span class="landing-companion__creature" aria-hidden="true">
+          <span class="landing-companion__fin landing-companion__fin--top"></span>
+          <span class="landing-companion__gill landing-companion__gill--left"></span>
+          <span class="landing-companion__gill landing-companion__gill--right"></span>
+          <span class="landing-companion__frill landing-companion__frill--left-top"></span>
+          <span class="landing-companion__frill landing-companion__frill--left-bottom"></span>
+          <span class="landing-companion__frill landing-companion__frill--right-top"></span>
+          <span class="landing-companion__frill landing-companion__frill--right-bottom"></span>
+          <span class="landing-companion__eye landing-companion__eye--left"></span>
+          <span class="landing-companion__eye landing-companion__eye--right"></span>
+          <span class="landing-companion__mouth"></span>
+          <span class="landing-companion__hand landing-companion__hand--left">
+            <span class="landing-companion__finger landing-companion__finger--one"></span>
+            <span class="landing-companion__finger landing-companion__finger--two"></span>
+            <span class="landing-companion__finger landing-companion__finger--three"></span>
+          </span>
+          <span class="landing-companion__hand landing-companion__hand--right">
+            <span class="landing-companion__finger landing-companion__finger--one"></span>
+            <span class="landing-companion__finger landing-companion__finger--two"></span>
+            <span class="landing-companion__finger landing-companion__finger--three"></span>
+          </span>
+        </span>
       </div>
     </section>
 
